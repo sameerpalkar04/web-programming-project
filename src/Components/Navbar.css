@@ -1,0 +1,31 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: cadetblue;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: black 2px solid;
+}
+.logo {
+    size: 1px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#b1, #b2, #b3 {
+    background-color: aquamarine;
+    size: 20px;
+    border-color: transparent;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right:40px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
