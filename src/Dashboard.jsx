@@ -1,3 +1,5 @@
+import Navbar from "./Components/Navbar"
+
 export default function Dashboard() {
-    return <h1> Hello </h1>
+    return <div><Navbar></Navbar></div>
 }
