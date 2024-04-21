@@ -1,5 +1,6 @@
 import Navbar from "./Components/Navbar"
 import './App.css'
+import Footer from "./Components/Footer"
 
 export default function Dashboard() {
     return <div><Navbar/>
@@ -12,6 +13,7 @@ export default function Dashboard() {
             <img src="/3215.jpg"></img>
         </div>
     </main>
+    <Footer/>
     </div>
 
 }

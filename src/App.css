@@ -19,7 +19,7 @@
   color: rgb(30, 30, 30);
   width: 60%;
   height: auto;
-  font-size: 120px;
+  font-size: 135px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .text {
@@ -27,4 +27,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin-left: 10px;
+}
+.content p {
+  display: block;
+  font-size: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  text-align: justify;
+  margin: 20px;
 }
