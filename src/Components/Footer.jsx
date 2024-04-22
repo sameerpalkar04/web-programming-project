@@ -7,7 +7,7 @@ export default function Footer() {
                 <img src='/YumYard2.svg'></img>
             </div>
             <div>
-                <p id="name"> Made By Sameer Palkar 22BCE3037 </p>
+                <p id="name"> Made By: Sameer Palkar 22BCE3037 </p>
             </div>
         </nav>
     )

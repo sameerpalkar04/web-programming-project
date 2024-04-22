@@ -4,7 +4,7 @@
     align-items: center;
     height: 10vh;
     width: 100%;
-    background-color: cadetblue;
+    background-color: beige;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -19,16 +19,31 @@
     justify-content: space-between;
     align-items: flex-end;
 }
-#b1, #b2, #b3 {
-    background-color: white;
+#b2, #b3 {
+    background-color: beige;
     size: 20px;
     border-color: transparent;
     padding: 10px;
     margin-left: 10px;
-    margin-right:30px;
+    margin-right:10px;
     color: rgb(0, 0, 0);
+    text-size-adjust: 5px;
     text-decoration: none;
     text-align: center;
     border-radius: 5px;
     min-width: 7vw;
+    font-size: 17px;
+}
+#b1 {
+    background-color: cadetblue;
+    size: 30px;
+    border-color: transparent;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right:30px;
+    min-width: 7vw;
+    text-align: center;
+    color: white;
+    border-radius: 50px;
+    font-size: 17px;
 }
