@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content:space-evenly ;
+  margin-bottom: 10vh;
 }
 
 .container div{
@@ -10,8 +11,8 @@
 }
 
 .image img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 }
 
 .rectangle img {
@@ -54,15 +55,10 @@
 .content p {
   display: block;
   font-size: 28px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
   margin: 20px;
 }
-.text img {
-  width: 100%;
-  height: 100%;
-}
-
 #b4 {
   margin: 40px;
   background-color: white;
@@ -83,5 +79,38 @@
   align-items: center;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.bg-image {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  place-items: center;
+}
 
+#bg {
+  width: auto;
+  height: 80vh;
+  grid-area: 1/1;
+}
+
+#heading {
+  text-align: center;
+  color: rgb(255, 105, 105);
+  width: 75%;
+  height: auto;
+  font-size: 130px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  grid-area: 1/1;
+}
+#heading1 {
+  text-align: center;
+  color: rgb(255, 105, 105);
+  width: 75%;
+  height: auto;
+  font-size: 100px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  grid-area: 1/1;
+}
+.card-container {
+  margin-bottom: 10vh;
 }

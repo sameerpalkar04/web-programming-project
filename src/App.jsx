@@ -2,6 +2,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Dashboard from "./Dashboard";
 import About from "./About";
 import Restaurants from "./Restaurants";
+import Review from "./Review";
 //import Navbar from "./Components/Navbar";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Route path="/" element={<Dashboard />} />
       <Route path="/about" element={<About />} />
       <Route path="/restaurants" element={<Restaurants />} />
+      <Route path="/review" element={<Review />} />
     </Routes>
   );
 }

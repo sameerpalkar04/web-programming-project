@@ -1,0 +1,43 @@
+.Card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    width: 70%;
+    background-color: cadetblue;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    margin-left: 35vh;
+    margin-top: 30px;
+}
+.c-image img {
+    height: 125px;
+    width: 125px;
+    padding: 5px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.c-image{
+    display: flex;
+    align-items: center;
+}
+
+.c-image h3{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.reviewsBtn{
+    margin-right: 30px;
+    font-size: 30px;
+    padding:10px 30px;
+    border-radius: 50px;
+    background-color: rgb(255,105,105);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    border:none;
+}
