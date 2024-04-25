@@ -5,6 +5,7 @@ import Footer from "./Components/Footer";
 import './App.css';
 
 export default function Review() {
+
     const [formData, setFormData] = useState({
         restaurantName: '',
         name: '',
@@ -44,9 +45,9 @@ export default function Review() {
         <div>
             <Navbar />
             <main className="container">
-                <div className="form">
+                <div className="content">
                     <form onSubmit={handleSubmit}>
-                        <div className="form-group">
+                        <div className="form-group1">
                             <label htmlFor="restaurantName">Restaurant Name:</label>
                             <input 
                                 type="text" 
@@ -57,7 +58,7 @@ export default function Review() {
                                 required 
                             />
                         </div>
-                        <div className="form-group">
+                        <div className="form-group2">
                             <label htmlFor="name">Name:</label>
                             <input 
                                 type="text" 
@@ -68,7 +69,7 @@ export default function Review() {
                                 required 
                             />
                         </div>
-                        <div className="form-group">
+                        <div className="form-group3">
                             <label htmlFor="email">Email:</label>
                             <input 
                                 type="email" 
@@ -79,7 +80,7 @@ export default function Review() {
                                 required 
                             />
                         </div>
-                        <div className="form-group">
+                        <div className="form-group4">
                             <label htmlFor="rating">Rating:</label>
                             <select 
                                 id="rating" 
@@ -96,7 +97,7 @@ export default function Review() {
                                 <option value="5">5</option>
                             </select>
                         </div>
-                        <div className="form-group">
+                        <div className="form-group5">
                             <label htmlFor="review">Review:</label>
                             <textarea 
                                 id="review" 

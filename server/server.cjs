@@ -57,7 +57,18 @@ app.post('/addReview', async (req, res) => {
         await review.save();
         res.status(201).json({ message: 'Review added successfully' });
     } catch (error) {
+        console.log(error);
         res.status(500).json({ message: 'Error adding review' });
+    }
+});
+
+app.get('/getReviews/:restaurantName', async (req, res) => {
+    try {
+        const restaurantName = req.params.restaurantName;
+        const reviews = await Review.find({ restaurantName });
+        res.status(200).json(reviews);
+    } catch (error) {
+        res.status(500).json({ message: 'Error getting reviews' });
     }
 });
 

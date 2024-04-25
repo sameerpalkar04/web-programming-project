@@ -47,3 +47,9 @@
     border-radius: 50px;
     font-size: 17px;
 }
+#b1:hover {
+    background-color: darkcyan;
+}
+#b2:hover, #b3:hover {
+    color: rgb(255,105,105);
+}

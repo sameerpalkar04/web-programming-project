@@ -72,6 +72,11 @@
   border-color: transparent;
 }
 
+#b4:hover {
+  background-color: cadetblue;
+  color: white;
+}
+
 #b4 img {
   display: flex;
   width: 300px;
@@ -113,4 +118,8 @@
 }
 .card-container {
   margin-bottom: 10vh;
+}
+
+.form-group {
+  border: 2px solid green;
 }
