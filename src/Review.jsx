@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import './App.css';
+import './Review.css';
 
 export default function Review() {
 
@@ -28,7 +28,6 @@ export default function Review() {
         try {
             const response = await axios.post('http://localhost:4000/addReview', formData);
             console.log('Review added:', response.data.message);
-            // Clear form fields
             setFormData({
                 restaurantName: '',
                 name: '',
@@ -44,8 +43,9 @@ export default function Review() {
     return (
         <div>
             <Navbar />
-            <main className="container">
+            <main className="container1">
                 <div className="content">
+                    <h1>Write a Review</h1>
                     <form onSubmit={handleSubmit}>
                         <div className="form-group1">
                             <label htmlFor="restaurantName">Restaurant Name:</label>
@@ -108,12 +108,8 @@ export default function Review() {
                                 required
                             ></textarea>
                         </div>
-                        <button type="submit">Submit</button>
+                        <button id="button2" type="submit">Submit</button>
                     </form>
-                </div>
-                <div className="bg-image">
-                    <img id="bg" src='/Art.svg' alt="background"></img>
-                    <h1 id='heading1'>WRITE A REVIEW</h1>
                 </div>
             </main>
             <Footer />

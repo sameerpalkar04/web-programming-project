@@ -1,3 +1,4 @@
+
 import "./ReviewPage.css";
 
 export default function ReviewPage({reviews, visible, setVisible}) {
@@ -10,7 +11,8 @@ export default function ReviewPage({reviews, visible, setVisible}) {
                 <div key={index} className="review">
                     <h3>{review.name}</h3>
                     <p>{review.reviewText}</p>
-                    <p>{review.review}</p>
+                    <p>Rating : {review.rating}/5</p>
+                    <p>Review : {review.review}</p>
                 </div>
             ))}
             <button id="button1" onClick={() => setVisible(false)}>Close</button>
